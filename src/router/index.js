@@ -6,7 +6,7 @@ export default new VueRouter({
     mode: 'history',
     routes: [
         {
-            path: '/users',
+            path: '/',
             component: Users
         }
     ]
