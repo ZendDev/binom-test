@@ -51,7 +51,7 @@
                                 <datepicker @input="getUserField('field', fields.field, 'validator')($event, fields.field)" v-model="addedUser.sub"></datepicker>
 
                                 {{ errors[fields.field] }}
-                            </div>
+                            </div> 
                         </div>
                     </div>
                     <button @click="addUser">Добавить</button>                   
